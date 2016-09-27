@@ -54,7 +54,7 @@ var activityCommandDelegate:CDVCommandDelegate?;
         super.pluginInitialize();
 
         locationManager.requestLocationPermissions();
-        self.promptForNotificationPermission();
+        //self.promptForNotificationPermission();
 
         NSNotificationCenter.defaultCenter().addObserver(
             self,
